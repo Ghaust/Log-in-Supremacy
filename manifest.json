@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Login in Supremacy",
+  "version": "1.0",
+  "description": "Replaces 'Sign in' with 'Log in'",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
